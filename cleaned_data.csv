@@ -1,0 +1,6 @@
+id,name,age,salary,department,tax,net_salary
+1,Alice,30.0,5000.0,Sales,500.0,4500.0
+2,Bob,25.0,4500.0,IT,450.0,4050.0
+3,Charlie,35.0,6000.0,HR,600.0,5400.0
+6,Frank,40.0,7000.0,HR,700.0,6300.0
+7,Grace,32.0,4800.0,Sales,480.0,4320.0
