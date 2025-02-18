@@ -1,4 +1,4 @@
-import snowflake.connector
+import snowflake.connector # type: ignore
 import csv
 import os
 from dotenv import load_dotenv

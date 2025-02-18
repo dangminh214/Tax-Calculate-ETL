@@ -1,4 +1,4 @@
-import pandas as pd # type: ignore
+import pandas as pd
 import sqlite3
 import logging
 
@@ -38,7 +38,7 @@ def transform_data(df):
     
     logging.info("Data has been transformed and calculated in a new column.")
     
-    # Tạo bảng tổng hợp theo phòng ban: trung bình lương sau thuế cho mỗi phòng
+    # Create summary table base on department
     dept_summary = df_clean.groupby('department', as_index=False)['net_salary'].mean()
     dept_summary.rename(columns={'net_salary': 'avg_net_salary'}, inplace=True)
     logging.info("Has been calculated base on department.")
