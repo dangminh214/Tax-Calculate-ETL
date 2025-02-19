@@ -14,7 +14,10 @@ This project is a simple **ETL (Extract, Transform, Load) pipeline** that proces
   - Saves cleaned data into `cleaned_data.csv` and department summary into `department_summary.csv`.  
   - Stores data in an SQLite database (`etl_data.db`), creating two tables:  
     - `employee_data` (Cleaned employee salary data)  
-    - `department_summary` (Average net salary per department)  
+    - `department_summary` (Average net salary per department)
+- **Query from snowflake**
+  - Query select from snowflake
+  - Process data and extract to csv
 
 ## Installation
 
