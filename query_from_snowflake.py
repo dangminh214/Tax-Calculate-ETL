@@ -33,7 +33,7 @@ rows = cursor.fetchall()
 # Write to csv
 with open('query_output.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow([desc[0] for desc in cursor.description])  # Ghi tiêu đề cột
+    writer.writerow([desc[0] for desc in cursor.description])  # Write column label
     writer.writerows(rows)
 
 # Close connection
