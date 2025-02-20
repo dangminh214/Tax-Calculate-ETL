@@ -1,0 +1,6 @@
+ID,NAME,AGE,SALARY,DEPARTMENT,TAX,NET_SALARY,Future_Salary,Experience_Level,Bonus,Tax_Bracket
+1,Alice,30.0,5000.0,Sales,500.0,4500.0,6381.41,Mid,450.0,Medium
+2,Bob,25.0,4500.0,IT,450.0,4050.0,5743.27,Junior,486.0,Low
+3,Charlie,35.0,6000.0,HR,600.0,5400.0,7657.69,Mid,432.0,Medium
+6,Frank,40.0,7000.0,HR,700.0,6300.0,8933.97,Senior,504.0,High
+7,Grace,32.0,4800.0,Sales,480.0,4320.0,6126.15,Mid,432.0,Low
